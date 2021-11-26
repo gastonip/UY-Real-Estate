@@ -1,0 +1,15 @@
+@use "../custom";
+
+.fila{
+    height: 50vh;
+    border: solid;
+    border-color: $principal;
+}
+
+
+
+.carrusel{
+    img{
+        width: 60rem;
+    }
+}

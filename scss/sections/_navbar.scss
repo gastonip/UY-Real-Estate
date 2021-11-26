@@ -1,0 +1,12 @@
+//@use "../custom" as *;
+
+.menu{
+    margin-bottom: 50px;
+    li{
+        padding: 0 0.7rem;
+        a{
+            color: $secundario !important;
+            font-weight: 600;
+        }
+    }
+}

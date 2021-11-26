@@ -1,0 +1,23 @@
+@use "../custom";
+
+.contProyectos{
+    color: $secundario;
+
+    &__imgPrincipal{
+        padding-top: 5em;
+        width: 60em;
+    }
+    &__caracteristicas{
+        margin-top: 5em;
+        div{
+            padding: 2em 10em;
+        }
+    }
+    &__unidades{
+        width: 30em;
+    }
+    .contUnidades{
+        margin-top: 2em;
+        border-style: solid;
+    }
+}
