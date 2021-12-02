@@ -1,16 +1,18 @@
 @use "../custom";
+$medidaEm: 10em;
+
 
 .contProyectos{
     color: $secundario;
 
     &__imgPrincipal{
-        padding-top: 5em;
+        padding-top: $medidaEm/2;
         width: 60em;
     }
     &__caracteristicas{
-        margin-top: 5em;
+        margin-top: $medidaEm/2;
         div{
-            padding: 2em 10em;
+            padding: 2em $medidaEm;
         }
     }
     &__unidades{
