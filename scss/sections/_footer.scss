@@ -1,0 +1,27 @@
+@import "../custom";
+.flex{
+    display: flex;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    background-color: $principal;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    ul{
+        list-style: none;
+    }
+    .socials{
+        li{
+            display: inline-block;
+            padding: 0 5px;
+        }
+        .imgSocials{
+            width: 30px;
+        }
+    }
+}
