@@ -7,6 +7,7 @@
     <title>UY Real Estate</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/fontawesome.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -44,12 +45,12 @@
     <!-- Imagen principal y titulo -->
     <section class="container contProyectos">
         <div class="row justify-content-center">
-            <div class="col-6">
+            <div data-aos="fade-down" class="col-6">
                 <h1>Proyecto de inversion en curso</h1>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-10">
+            <div data-aos="fade-down" class="col-10">
                 <img src="../images/Proyecto/proyecto.jpg" alt="" class="contProyectos__imgPrincipal">
             </div>
         </div>
@@ -80,6 +81,36 @@
         </div>
     </section>
 
+    <!-- Pie de pagina -->
+    <footer class="flex">
+        <p class="copy">© UY Real Estate, Derechos reservados. 2021.</p>
+        <ul class="socials">
+            <li>
+                <a href="https://twitter.com/">
+                    <img class="imgSocials" src="../images/socials/tweeter.png" alt="Twitter">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/">
+                    <img class="imgSocials" src="../images/socials/instagram.png" alt="Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/">
+                    <img class="imgSocials" src="../images/socials/facebook.png" alt="Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://uy.linkedin.com">
+                    <img class="imgSocials" src="../images/socials/linkedin.png" alt="LinkedIn">
+                </a>
+            </li>
+        </ul>
+    </footer>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

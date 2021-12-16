@@ -22772,6 +22772,10 @@ textarea.form-control-lg {
   border-color: #F0E9D2;
 }
 
+section {
+  min-height: 100vh;
+}
+
 .carrusel img {
   width: 60rem;
 }
@@ -45589,11 +45593,12 @@ textarea.form-control-lg {
 footer {
   bottom: 0;
   width: 100%;
-  position: absolute;
+  color: #678983;
   background-color: #F0E9D2;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-content: center;
+  margin-top: 5em;
   padding: 5px 50px;
 }
 footer ul {
