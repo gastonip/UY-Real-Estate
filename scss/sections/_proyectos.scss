@@ -22,3 +22,13 @@
         border-style: solid;
     }
 }
+
+@media only screen and (max-width: 768px){
+    .contProyectos{
+        &__imgPrincipal{
+            padding-top: 5em;
+            width: 40em;
+        }
+    }
+}
+

@@ -6,3 +6,14 @@
         width: 25em;
     }
 }
+
+@media only screen and (max-width: 375px){
+    .contNosotros{
+        .contDesc{
+            margin-bottom: 2em;
+        }
+        &__imagenes{
+            width: 10em;
+        }
+    }
+}

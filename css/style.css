@@ -34454,6 +34454,12 @@ textarea.form-control-lg {
   border-style: solid;
 }
 
+@media only screen and (max-width: 768px) {
+  .contProyectos__imgPrincipal {
+    padding-top: 5em;
+    width: 40em;
+  }
+}
 .contNosotros .contDesc {
   margin-bottom: 2em;
 }
@@ -34461,6 +34467,14 @@ textarea.form-control-lg {
   width: 25em;
 }
 
+@media only screen and (max-width: 375px) {
+  .contNosotros .contDesc {
+    margin-bottom: 2em;
+  }
+  .contNosotros__imagenes {
+    width: 10em;
+  }
+}
 /*$success:       $green
 $info:          $cyan;
 $warning:       $yellow;
